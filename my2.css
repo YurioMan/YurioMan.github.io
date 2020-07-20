@@ -1,0 +1,19 @@
+body{
+    background: gray;
+}
+h1{
+    text-align: center;
+}
+
+img[title="Water"]{
+    width: 300px;
+}
+img[title="Shark"]{
+    width: 200px;
+}
+a[href="https://yandex.ru"]{
+    color: red;
+}
+a[href="https://mail.ru"]{
+    color: black;
+}
