@@ -22,5 +22,8 @@ a[href="https://yandex.ru"]{
     color: black;
 }
 a[href="https://mail.ru"]{
-    color: white;;
+    color: white;
+}
+footer {
+	background: darkgrey;
 }
