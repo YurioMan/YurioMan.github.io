@@ -9,7 +9,11 @@ img[title="Water"]{
     width: 300px;
 }
 img[title="Shark"]{
-    width: 200px;
+    /* 2020.07.22
+     * спецовка
+     * 13:00 стажировка
+     * */
+	width: 200px;
 }
 a[href="https://yandex.ru"]{
     color: red;
