@@ -1,10 +1,39 @@
 body{
     background: lightgrey;
 }
+article{
+    max-width: 760px;
+    margin: 0 auto; /*выравнивает всё по центру*/
+}
 h1{
     text-align: center;
 }
-
+.logo{
+    font-family: Baskerville, Palatino, sans-serif;
+    font-size: 2.1em;
+    color: rgba(31, 6, 177, 0.8);
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 26px;
+    background: rgb(29, 29, 31);
+    border-radius: 0 0 10px 10px; /* верхлев верхправ низлев низправ**/
+    padding: 12px;
+}
+p{
+    color: rgba(31, 6, 177, 0.8);
+    font-size: 18px; /* px, em, % */
+    font-family: "Kurale", Arial, Helvetica, sans-serif;
+    /* fonts.googleapis.com*/
+}
+.note{
+    color: black; /* никогда цвета не пишут словами!*/
+    border: 2px solid #ffffff; /* 16-ричная система в основном из 
+    photoshopa*/
+    background: rgba(17, 72, 223, 0.5);
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 18px;
+}
 img[title="Water"]{
     width: 300px;
 }
@@ -20,7 +49,8 @@ img[title="Shark"]{
  * */
 
 }
-a[href="https://google.com"]{               color: yellow; 
+a[href="https://google.com"]{               
+    color: yellow; 
 }
 a[href="https://yandex.ru"]{
     color: black;
@@ -29,5 +59,6 @@ a[href="https://mail.ru"]{
     color: white;
 }
 footer {
-	background: darkgrey;
+    background: darkgrey;
+    font-style: italic;
 }
