@@ -1,6 +1,6 @@
-html{
+/* html{
     background: url(https://github.com/YurioMan/YurioMan.github.io/blob/master/water_PNG50246.png) no-repeat rgb(155, 148, 148);
-}
+} */
 
 body{
     
@@ -48,7 +48,7 @@ p{
     color: black; /* никогда цвета не пишут словами!*/
     border: 2px solid #ffffff; /* 16-ричная система в основном из 
     photoshopa*/
-    background: rgba(17, 72, 223, 0.5);
+    background: rgba(101, 132, 218, 0.8);
     margin-bottom: 30px;
     margin-top: 20px;
     padding: 18px;
