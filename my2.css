@@ -1,5 +1,6 @@
 body{
     background: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 article{
     max-width: 760px;
