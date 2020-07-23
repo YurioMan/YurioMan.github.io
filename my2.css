@@ -5,7 +5,7 @@ body{
     -moz-background-size: 100%; /*для Firefox 3.6+*/
     -webkit-background-size: 100%; /*для Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /*для Opera 9.6+ */
-    background-size: 100% 100%r; 
+    background-size: 100% 100%; 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 article{
@@ -15,9 +15,9 @@ article{
 h1{
     text-align: center;
 }
-img{
+/* img{
     background-size:100% 100%;
-}
+} */
 .logo{
     font-family: Baskerville, Palatino, sans-serif;
     font-size: 2.1em;
@@ -53,10 +53,10 @@ p{
     margin-top: 20px;
     padding: 18px;
 }
-img[title="Water"]{
+/* img[title="Water"]{
     width: 300px;
     
-}
+} */
 /*img[title="Shark"]{
     width: 200px; 
  2020.07.21 Стажировка 13:00
