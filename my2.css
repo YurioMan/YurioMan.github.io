@@ -21,9 +21,9 @@ h1{
     font-style: italic;
     text-align: center;
     margin-top: 1px;
-    margin-bottom: 26px;
+    margin-bottom: 46px;
     background: rgb(137, 137, 143);
-    border-radius: 0 0 10px 10px; /* верхлев верхправ низлев низправ**/
+    border-radius: 10px 10px 0 0; /* верхлев верхправ низлев низправ**/
     padding: 12px;
 }
 h3{
@@ -49,12 +49,12 @@ p{
     margin-top: 20px;
     padding: 18px;
 }
-img[title="Water"]{
+/* img[title="Water"]{
     width: 300px;
     
 }
 img[title="Shark"]{
-    width: 200px;
+    width: 200px; */
 /* 2020.07.21 Стажировка 13:00
  * Забрать потом из КГ документы
  * Стирать все футболки
@@ -75,6 +75,11 @@ a[href="https://mail.ru"]{
     color: white;
 }
 footer {
-    background: darkgrey;
+    
     font-style: italic;
+    margin-top: 1px;
+    margin-bottom: 26px;
+    background: rgb(137, 137, 143);
+    border-radius: 0 0 10px 10px; /* верхлев верхправ низлев низправ**/
+    padding: 12px;
 }
