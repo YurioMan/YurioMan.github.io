@@ -1,9 +1,6 @@
-html{
-    background: url(https://github.com/YurioMan/YurioMan.github.io/blob/master/water_PNG50246.png) no-repeat rgb(155, 148, 148) center top;
-}
-
 body{
-    
+    background: url(https://github.com/YurioMan/YurioMan.github.io/blob/master/water_PNG50246.png) no-repeat rgb(155, 148, 148);
+    background-size:100% 100%;
     /* background: url('https://github.com/YurioMan/YurioMan.github.io/blob/master/water_PNG50246.png') no-repeat rgb(155, 148, 148); */
     /* -moz-background-size: 100%; для Firefox 3.6+ */
     /* -webkit-background-size: 100%; для Safari 3.1+ и Chrome 4.0+ */
