@@ -1,10 +1,14 @@
+html{
+    background: url('https://github.com/YurioMan/YurioMan.github.io/blob/master/water_PNG50246.png') no-repeat rgb(155, 148, 148);
+}
+
 body{
-    background-color: rgb(155, 148, 148); 
-    background-image: url('https://github.com/YurioMan/YurioMan.github.io/blob/master/water_PNG50246.png') no-repeat;
+    
+    /* background: url('https://github.com/YurioMan/YurioMan.github.io/blob/master/water_PNG50246.png') no-repeat rgb(155, 148, 148); */
     /* -moz-background-size: 100%; для Firefox 3.6+ */
     /* -webkit-background-size: 100%; для Safari 3.1+ и Chrome 4.0+ */
     /* -o-background-size: 100%; для Opera 9.6+ */
-    background-size: 100%; 
+    /* background-size: 100%;  */
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 article{
