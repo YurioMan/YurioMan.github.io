@@ -53,22 +53,22 @@ p{
     margin-top: 20px;
     padding: 18px;
 }
-/* img[title="Water"]{
+img[title="Water"]{
     width: 300px;
     
 }
-img[title="Shark"]{
-    width: 200px; */
-/* 2020.07.21 Стажировка 13:00
+/*img[title="Shark"]{
+    width: 200px; 
+ 2020.07.21 Стажировка 13:00
  * Забрать потом из КГ документы
  * Стирать все футболки
  * 20200722
  * ssh туннель
  * git 
  * css video
- * */
+ * 
 
-}
+}*/
 a[href="https://google.com"]{               
     color: yellow; 
 }
