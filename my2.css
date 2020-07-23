@@ -1,6 +1,6 @@
 body{
     background-color: rgb(155, 148, 148); 
-    background-image:  image(water_PNG50246.png) no-repeat;
+    background-image:  url(water_PNG50246.png) no-repeat;
     /* -moz-background-size: 100%; для Firefox 3.6+ */
     /* -webkit-background-size: 100%; для Safari 3.1+ и Chrome 4.0+ */
     /* -o-background-size: 100%; для Opera 9.6+ */
@@ -20,7 +20,8 @@ h1{
     color: rgba(103, 93, 241, 0.9);
     font-style: italic;
     text-align: center;
-    margin-bottom: 6px;
+    margin-top: 1px;
+    margin-bottom: 26px;
     background: rgb(137, 137, 143);
     border-radius: 0 0 10px 10px; /* верхлев верхправ низлев низправ**/
     padding: 12px;
