@@ -5,7 +5,7 @@ body{
     -moz-background-size: 100%; /*для Firefox 3.6+*/
     -webkit-background-size: 100%; /*для Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /*для Opera 9.6+ */
-    background-size: cover; 
+    background-size: 100% 100%r; 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 article{
