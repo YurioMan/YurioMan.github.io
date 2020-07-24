@@ -1,6 +1,5 @@
 body{
-    /* background: url(https://github.com/YurioMan/YurioMan.github.io/blob/master/water_PNG50246.png) no-repeat rgb(155, 148, 148);
-    background-size: 100%; */
+    
     background: url(water_PNG50246.png) no-repeat center top fixed rgb(155, 148, 148);
     -moz-background-size: 100%; /*для Firefox 3.6+*/
     -webkit-background-size: 100%; /*для Safari 3.1+ и Chrome 4.0+ */
@@ -9,7 +8,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 article{
-    max-width: 760px;
+    max-width: 800px;
     margin: 0 auto; /*выравнивает всё по центру*/
 }
 h1{
@@ -69,6 +68,13 @@ p{
  * 
 
 }*/
+.robo{
+  color: darkblue;
+}
+.anal{
+  color: darkblue;
+  margin-left: 10px;
+}
 a[href="https://google.com"]{               
     color: yellow; 
 }
