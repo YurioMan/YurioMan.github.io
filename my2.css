@@ -29,6 +29,21 @@ h1{
     border-radius: 10px 10px 0 0; /* верхлев верхправ низлев низправ**/
     padding: 12px;
 }
+table{
+  border-collapse: collaps;
+  
+  border:2px solid   rgba(31, 6, 177, 0.8);
+  background: rgba(101, 132, 218, 0.7);
+  text-align: center;
+  margin: auto;
+}
+  th, td {
+    padding: 5px;
+    border: 1px solid aquamarine;
+    font-style: italic;
+  }
+
+
 h3{
     font-style: italic;
     text-align: center;
