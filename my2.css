@@ -38,6 +38,7 @@ table{
   margin: auto;
 }
   th, td {
+    color:  rgb(58, 56, 56);;  
     padding: 5px;
     border: 1px solid aquamarine;
     font-style: italic;
@@ -52,6 +53,17 @@ h3{
 
 
 }
+ol{
+    color: rgba(31, 6, 177, 0.8);
+    font-size: 18px;
+    list-style-type: upper-roman;
+    font-style: italic;
+    
+}
+li{
+    padding-left: 20px;
+}
+      
 p{
     color: rgba(31, 6, 177, 0.8);
     font-size: 18px; /* px, em, % */
@@ -60,7 +72,7 @@ p{
     font-style: italic;
 }
 .note{
-    color: black; /* никогда цвета не пишут словами!*/
+    color: rgb(24, 22, 22); /* никогда цвета не пишут словами!*/
     border: 2px solid #ffffff; /* 16-ричная система в основном из 
     photoshopa*/
     background: rgba(101, 132, 218, 0.7);
