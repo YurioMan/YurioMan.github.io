@@ -1,23 +1,136 @@
 body{
-    background: gray;
+    
+    background: url(water_PNG50246.png) no-repeat center top fixed rgb(137, 137, 143);
+    -moz-background-size: 100%; /*для Firefox 3.6+*/
+    -webkit-background-size: 100%; /*для Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /*для Opera 9.6+ */
+    background-size: cover; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+article{
+    max-width: 800px;
+    margin: 0 auto; /*выравнивает всё по центру*/
 }
 h1{
     text-align: center;
 }
-
-img[title="Water"]{
-    width: 300px;
+/* img{
+    background-size:100% 100%;
+} */
+.logo{
+    font-family: Baskerville, Palatino, sans-serif;
+    font-size: 2.1em;
+    color: rgba(103, 93, 241, 0.9);
+    font-style: italic;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 46px;
+    background: rgb(137, 137, 143);
+    border-radius: 10px 10px 0 0; /* верхлев верхправ низлев низправ**/
+    padding: 12px;
 }
+table{
+  border-collapse: collaps;
+  
+  border:2px solid   rgba(31, 6, 177, 0.8);
+  background: rgba(101, 132, 218, 0.7);
+  text-align: center;
+  margin: auto;
+}
+  th, td {
+    color:  rgb(58, 56, 56);;  
+    padding: 5px;
+    border: 1px solid aquamarine;
+    font-style: italic;
+  }
+
+
+h3{
+    font-style: italic;
+    text-align: center;
+    font-size: 26px;
+    color: rgba(103, 93, 241, 0.9);
+
+
+}
+ol{
+    color: rgba(31, 6, 177, 0.8);
+    font-size: 18px;
+    list-style-type: upper-roman;
+    font-style: italic;
+    
+}
+li{
+    padding-left: 20px;
+}
+      
+p{
+    color: rgba(31, 6, 177, 0.8);
+    font-size: 18px; /* px, em, % */
+    /* font-family: "Kurale", Arial, Helvetica, sans-serif; */
+    /* fonts.googleapis.com*/
+    font-style: italic;
+}
+.note{
+    color: rgb(24, 22, 22); /* никогда цвета не пишут словами!*/
+    border: 2px solid #ffffff; /* 16-ричная система в основном из 
+    photoshopa*/
+    background: rgba(101, 132, 218, 0.7);
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 18px;
+}
+/* img[title="Water"]{
+    width: 300px;
+    
+} */
+/*img[title="Shark"]{
+    width: 200px; 
+ 2020.07.21 Стажировка 13:00
+ * Забрать потом из КГ документы
+ * Стирать все футболки
+ * 20200722
+ * ssh туннель
+ * git 
+ * css video
+ * 
+
+}*/
+.robo{
+  color: darkblue;
+}
+.anal{
+  color: darkblue;
+  margin-left: 10px;
+}
+<<<<<<< HEAD
 img[title="Shark"]{
     /* 2020.07.22
      * спецовка
      * 13:00 стажировка
      * */
 	width: 200px;
+=======
+a[href="https://google.com"]{               
+    color: yellow; 
+>>>>>>> 8989dca0784254fcc35198da84d995f9ad4a49d7
 }
 a[href="https://yandex.ru"]{
-    color: red;
+    color: black;
 }
 a[href="https://mail.ru"]{
+<<<<<<< HEAD
     color: black;
+=======
+    color: white;
+}
+footer {
+    
+    font-style: italic;
+    margin-top: 1px;
+    margin-bottom: 26px;
+    background: rgb(137, 137, 143);
+    border-radius: 0 0 10px 10px; /* верхлев верхправ низлев низправ**/
+    padding: 12px;
+>>>>>>> 8989dca0784254fcc35198da84d995f9ad4a49d7
 }
