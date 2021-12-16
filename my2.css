@@ -20,7 +20,9 @@ h1{
 .logo{
     font-family: Baskerville, Palatino, sans-serif;
     font-size: 2.1em;
-    color: rgba(103, 93, 241, 0.9);
+    /*color: rgba(103, 93, 241, 0.9);*/
+    color: rgba(0, 0, 177, 0.8);
+    
     font-style: italic;
     text-align: center;
     margin-top: 1px;
@@ -49,12 +51,14 @@ h3{
     font-style: italic;
     text-align: center;
     font-size: 26px;
-    color: rgba(103, 93, 241, 0.9);
+    /*color: rgba(103, 93, 241, 0.9);*/
+    color: rgba(0, 0, 177, 0.8);
 
 
 }
 ol{
-    color: rgba(31, 6, 177, 0.8);
+    /*color: rgba(31, 6, 177, 0.8);*/
+    color: rgba(0, 0, 177, 0.8);
     font-size: 18px;
     list-style-type: upper-roman;
     font-style: italic;
@@ -65,14 +69,26 @@ li{
 }
       
 p{
-    color: rgba(31, 6, 177, 0.8);
+    color: rgba(0, 0, 250, 0.8);
     font-size: 18px; /* px, em, % */
     /* font-family: "Kurale", Arial, Helvetica, sans-serif; */
     /* fonts.googleapis.com*/
     font-style: italic;
 }
+
+      
+a{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 18px; /* px, em, % */
+    /* font-family: "Kurale", Arial, Helvetica, sans-serif; */
+    /* fonts.googleapis.com*/
+    font-style: italic;
+}
+
+
 .note{
-    color: rgb(24, 22, 22); /* никогда цвета не пишут словами!*/
+    color: rgba(0, 0, 177, 0.8);
+    /*color: rgb(24, 22, 22); /* никогда цвета не пишут словами!*/
     border: 2px solid #ffffff; /* 16-ричная система в основном из 
     photoshopa*/
     background: rgba(101, 132, 218, 0.7);
