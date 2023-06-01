@@ -57,8 +57,8 @@ h3{
 
 }
 ol{
-    /*color: rgba(31, 6, 177, 0.8);*/
-    color: rgba(240, 240, 240, 0.8);
+    color: rgba(31, 6, 177, 0.8);
+    /*color: rgba(240, 240, 240, 0.8);*/
     font-size: 18px;
     list-style-type: upper-roman;
     font-style: italic;
@@ -78,7 +78,7 @@ p{
 
       
 a{
-    color: rgba(240, 240, 240, 0.8);
+    color: rgba(31, 6, 240, 0.8);
     font-size: 18px; /* px, em, % */
     /* font-family: "Kurale", Arial, Helvetica, sans-serif; */
     /* fonts.googleapis.com*/
