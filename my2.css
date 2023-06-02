@@ -1,6 +1,6 @@
 body{
     
-    background: url(water_PNG50246.png) no-repeat center top fixed rgb(137, 137, 143);
+    background: url(water_PNG50246.png) no-repeat center top fixed rgb(60, 137, 252);
     -moz-background-size: 100%; /*для Firefox 3.6+*/
     -webkit-background-size: 100%; /*для Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /*для Opera 9.6+ */
@@ -27,7 +27,7 @@ h1{
     text-align: center;
     margin-top: 1px;
     margin-bottom: 46px;
-    background: rgb(137, 137, 143);
+    background: rgb(11, 85, 193);
     border-radius: 10px 10px 0 0; /* верхлев верхправ низлев низправ**/
     padding: 12px;
 }
