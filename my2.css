@@ -1,53 +1,138 @@
-body{
-    
+body {
+
     background: url(water_PNG50246.png) no-repeat center top fixed rgb(60, 137, 252);
-    -moz-background-size: 100%; /*для Firefox 3.6+*/
-    -webkit-background-size: 100%; /*для Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /*для Opera 9.6+ */
-    background-size: cover; 
+    -moz-background-size: 100%;
+    /*для Firefox 3.6+*/
+    -webkit-background-size: 100%;
+    /*для Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%;
+    /*для Opera 9.6+ */
+    background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-article{
-    max-width: 800px;
-    margin: 0 auto; /*выравнивает всё по центру*/
+
+#block-body {
+    width: 1035px;
+    margin: 5px auto;
+    height: auto;
 }
-h1{
+
+.top-menu ul li {
+    list-style: none;
+    float: left;
     text-align: center;
 }
+
+.top-menu ul li a {
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+    height: 55px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+.top-menu ul li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    background: rgb(11, 85, 193);
+}
+
+.block-auth {
+    width: 100px;
+    float: left;
+    margin-left: 40px;
+    height: 85px;
+}
+
+.block-auth p {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.block-auth a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.block-auth a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    color: #0b4556;
+}
+
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    /*выравнивает всё по центру*/
+}
+
+h1 {
+    text-align: center;
+}
+
 /* img{
     background-size:100% 100%;
 } */
-.logo{
+.logo {
     font-family: Baskerville, Palatino, sans-serif;
-    font-size: 2.1em;
+    font-size: 1.7em;
     /*color: rgba(103, 93, 241, 0.9);*/
     color: rgba(240, 240, 240, 0.8);
-    
+
     font-style: italic;
     text-align: center;
     margin-top: 1px;
-    margin-bottom: 46px;
+    margin-bottom: 26px;
     background: rgb(11, 85, 193);
-    border-radius: 10px 10px 0 0; /* верхлев верхправ низлев низправ**/
-    padding: 12px;
+    border-radius: 10px 10px 0 0;
+    /* верхлев верхправ низлев низправ**/
+    padding: 0.5px;
 }
-table{
-  border-collapse: collaps;
-  
-  border:2px solid   rgba(31, 6, 177, 0.8);
-  background: rgba(101, 132, 218, 0.7);
-  text-align: center;
-  margin: auto;
+
+table {
+    border-collapse: collaps;
+
+    border: 2px solid rgba(31, 6, 177, 0.8);
+    background: rgba(101, 132, 218, 0.7);
+    text-align: center;
+    margin: auto;
 }
-  th, td {
-    color:  rgb(58, 56, 56);;  
+
+th {
+    color: black;
+    /*color: rgb(58, 56, 56);*/
+    font-size: 18px;
     padding: 5px;
     border: 1px solid aquamarine;
     font-style: italic;
-  }
+}
+
+td {
+    color: rgba(10, 2, 80, 0.8);
+    /*color: rgb(58, 56, 56);*/
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid aquamarine;
+    font-style: italic;
+}
 
 
-h3{
+h3 {
     font-style: italic;
     text-align: center;
     font-size: 26px;
@@ -56,46 +141,106 @@ h3{
 
 
 }
-ol{
-    color: rgba(31, 6, 177, 0.8);
+
+ol {
+    color: black;
     /*color: rgba(240, 240, 240, 0.8);*/
     font-size: 18px;
     list-style-type: upper-roman;
     font-style: italic;
-    
 }
-li{
-    padding-left: 20px;
+
+.hrevy ul li {
+    display: inline-block;
+    margin-left: 60px;
+
 }
-      
-p{
+
+
+li {
+    padding-left: 10px;
+
+}
+
+p {
     color: rgba(240, 240, 240, 0.8);
-    font-size: 18px; /* px, em, % */
-    /* font-family: "Kurale", Arial, Helvetica, sans-serif; */
-    /* fonts.googleapis.com*/
-    font-style: italic;
-}
-
-      
-a{
-    color: rgba(31, 6, 240, 0.8);
-    font-size: 18px; /* px, em, % */
+    font-size: 18px;
+    /* px, em, % */
     /* font-family: "Kurale", Arial, Helvetica, sans-serif; */
     /* fonts.googleapis.com*/
     font-style: italic;
 }
 
 
-.note{
+a {
+    color: rgba(10, 2, 80, 0.8);
+    font-size: 18px;
+    /* px, em, % */
+    /* font-family: "Kurale", Arial, Helvetica, sans-serif; */
+    /* fonts.googleapis.com*/
+    font-style: italic;
+}
+
+
+.note {
     color: rgba(240, 240, 240, 0.8);
     /*color: rgb(24, 22, 22); /* никогда цвета не пишут словами!*/
-    border: 2px solid #ffffff; /* 16-ричная система в основном из 
+    border: 2px solid #ffffff;
+    /* 16-ричная система в основном из 
     photoshopa*/
     background: rgba(101, 132, 218, 0.7);
     margin-bottom: 30px;
     margin-top: 20px;
     padding: 18px;
 }
+
+footer {
+
+    font-style: italic;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 46px;
+    background: rgb(11, 85, 193);
+    border-radius: 0 0 10px 10px;
+    /* верхлев верхправ низлев низправ**/
+    padding: 12px;
+
+
+    /*font-family: Baskerville, Palatino, sans-serif;
+    font-size: 1.8em;
+    color: rgba(103, 93, 241, 0.9);
+    color: rgba(240, 240, 240, 0.8);*/
+
+}
+
+
+.back-menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+
+.back-menu ul li a {
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+    height: 55px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+.back-menu ul li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    background: rgba(60, 137, 252);
+}
+
 /* img[title="Water"]{
     width: 300px;
     
@@ -104,41 +249,32 @@ a{
     width: 200px; 
 
 }*/
-.robo{
-  color: darkblue;
+.robo {
+    color: darkblue;
 }
-.anal{
-  color: darkblue;
-  margin-left: 10px;
+
+.anal {
+    color: darkblue;
+    margin-left: 10px;
 }
-<<<<<<< HEAD
-img[title="Shark"]{
+
+<<<<<<< HEAD img[title="Shark"] {
     /* 2020.07.22
      * спецовка
      * 13:00 стажировка
      * */
-	width: 200px;
-=======
-a[href="https://google.com"]{               
-    color: yellow; 
->>>>>>> 8989dca0784254fcc35198da84d995f9ad4a49d7
-}
-a[href="https://yandex.ru"]{
-    color: black;
-}
-a[href="https://mail.ru"]{
-<<<<<<< HEAD
-    color: black;
-=======
-    color: white;
-}
-footer {
-    
-    font-style: italic;
-    margin-top: 1px;
-    margin-bottom: 26px;
-    background: rgb(137, 137, 143);
-    border-radius: 0 0 10px 10px; /* верхлев верхправ низлев низправ**/
-    padding: 12px;
->>>>>>> 8989dca0784254fcc35198da84d995f9ad4a49d7
-}
+    width: 200px;
+
+    =======a[href="https://google.com"] {
+        color: yellow;
+        >>>>>>>8989dca0784254fcc35198da84d995f9ad4a49d7
+    }
+
+    a[href="https://yandex.ru"] {
+        color: black;
+    }
+
+    a[href="https://mail.ru"] {
+        <<<<<<< HEAD color: black;
+        =======color: white;
+    }
