@@ -120,7 +120,7 @@ table {
 th {
     color: black;
     /*color: rgb(58, 56, 56);*/
-    font-size: 20px;
+    font-size: 30px;
     padding: 5px;
     border: 1px solid aquamarine;
     font-style: italic;
@@ -129,7 +129,7 @@ th {
 td {
     color: rgba(10, 2, 80, 0.8);
     /*color: rgb(58, 56, 56);*/
-    font-size: 18px;
+    font-size: 20px;
     padding: 5px;
     border: 1px solid aquamarine;
     font-style: italic;
@@ -156,7 +156,7 @@ ol {
 
 li {
     padding-left: 10px;
-    font-size: 20px;
+    font-size: 30px;
 
 }
 
