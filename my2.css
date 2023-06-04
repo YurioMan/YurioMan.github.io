@@ -12,6 +12,7 @@ body {
     /*для Opera 9.6+ */
     background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 #block-body {
