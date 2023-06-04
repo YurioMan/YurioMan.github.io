@@ -1,6 +1,7 @@
 body {
 
-    background: url(water_PNG50246.png) no-repeat center top fixed rgb(60, 137, 252);
+    background: rgb(60, 137, 252);
+     /* url(water_PNG50246.png) no-repeat center top fixed rgb(60, 137, 252);*/
     -moz-background-size: 100%;
     /*для Firefox 3.6+*/
     -webkit-background-size: 100%;
