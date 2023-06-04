@@ -12,7 +12,7 @@ body {
     /*для Opera 9.6+ */
     background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+   
 }
 
 #block-body {
@@ -120,7 +120,7 @@ table {
 th {
     color: black;
     /*color: rgb(58, 56, 56);*/
-    font-size: 18px;
+    font-size: 20px;
     padding: 5px;
     border: 1px solid aquamarine;
     font-style: italic;
@@ -149,7 +149,7 @@ h3 {
 ol {
     color: black;
     /*color: rgba(240, 240, 240, 0.8);*/
-    font-size: 18px;
+    font-size: 20px;
     list-style-type: upper-roman;
     font-style: italic;
 }
