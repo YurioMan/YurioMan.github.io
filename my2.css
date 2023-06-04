@@ -154,16 +154,15 @@ ol {
     font-style: italic;
 }
 
-.hrevy ul li {
-    display: inline-block;
-    margin-left: 60px;
+li {
+    padding-left: 10px;
+    font-size: 20px;
 
 }
 
-
-li {
-    padding-left: 10px;
-
+.hrevy ul li {
+    display: inline-block;
+    margin-left: 60px;
 }
 
 p {
