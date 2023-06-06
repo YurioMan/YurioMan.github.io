@@ -32,7 +32,7 @@
           <li><a class="clickMenu" href="#">Theme</a></li>
           <li><a href="#">Video</a></li>
           <li><a href="#">History</a></li>
-          <li><a href="#">Contact</a></li>6
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
       <div class="block-auth">
@@ -45,24 +45,44 @@
   <article>
     <h3> Plans every day. </h3><br>
 
+    <form method="post" action="index.html">
+      <div class="col">
+        <div class="form-group label-floating">
+          <!--<label class="control-label">Дата</label>
+          <input type="text" class="form-control" name="date" required>-->
+          <textarea class="form-control" placeholder="Date" rows="1" name="date"></textarea>
+          <!--<input class="datepicker form-control" name="datetime" placeholder="Дата" type="text"/>-->
+          
+          <textarea class="form-control" placeholder="Theme" rows="1" name="note"></textarea>
+        </div>
+        
+          <button id="bsub" type="submit" class="btn btn-primary btn-round" name="submit">Отправить</button>
+        
+      </div>
+    </form>
+      
     <table>
       <tr>
         <th>N</th>
-        <th>Name</th>
         <th>Date</th>
+        <th>Theme</th>
+       
       </tr>
       <tr>
         <td>1</td>
-        <td>CSS-Lessons 14</td>
         <td>20200724</td>
+        <td>CSS-Lessons 14........... </td>
+       
       </tr>
       <td>2</td>
-      <td>EC - Lessons 70 </td>
       <td>20200724</td>
+      <td>EC - Lessons 70 </td>
+      
       <tr>
         <td>3</td>
-        <td>Python - page137</td>
         <td>20200729</td>
+        <td>Python - page137</td>
+        
 
       </tr>
     </table><br />
