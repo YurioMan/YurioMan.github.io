@@ -42,12 +42,53 @@
         <p><a href="#">Регистрация</a></p>
       </div>
     </header>
-
+  
   </div>
   <article>
     <h3> Plans every day. </h3><br>
     
     
+      <!--<form action="insert.html" method="post">
+        <p>
+          <label for="data">Дата:</label>
+          <input type="text" name="data" id="data">
+        </p>
+        <p>
+          <label for="name">Планы:</label>
+          <input type="text" name="name" id="name">
+        </p>
+        <p>
+          <label for="discript">Описание:</label>
+          <input type="text" name="discript" id="discript">
+        </p>
+        <input type="submit" value="Отправить">
+      </form>
+      
+      <?php
+      
+        $link = mysqli_connect("localhost", "root", "", "ftabname");
+       
+        // Проверьте подключение
+        if($link === false){
+          die("ERROR: Нет подключения. " . mysqli_connect_error());
+        }
+       
+        //  экранирует специальные символы в строке
+        $data = mysqli_real_escape_string($link, $_REQUEST['data']);
+        $name = mysqli_real_escape_string($link, $_REQUEST['name']);
+        $discript = mysqli_real_escape_string($link, $_REQUEST['discript']);
+       
+        // Попытка выполнения запроса вставки
+        $sql = "INSERT INTO tabname VALUES ( '', $data', '$name', '$discript')";
+        if(mysqli_query($link, $sql)){
+          echo "Записи успешно добавлены.";
+        } else{
+            echo "ERROR: Не удалось выполнить $sql. " . mysqli_error($link);
+          }
+       
+          // Закрыть соединение
+        mysqli_close($link);
+      ?>-->
 <br><br>
 
     <table>
@@ -55,22 +96,26 @@
         <th>N</th>
         <th>Date</th>
         <th>Theme</th>
+        <th>Discription</th>
        
       </tr>
       <tr>
         <td>1</td>
         <td>20200724</td>
         <td>CSS-Lessons 14........... </td>
+        <td>1</td>
        
       </tr>
       <td>2</td>
       <td>20200724</td>
       <td>EC - Lessons 70 </td>
+      <td>1</td>
       
       <tr>
         <td>3</td>
         <td>20200729</td>
         <td>Python - page137</td>
+        <td>1</td>
         
 
       </tr>
