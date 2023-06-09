@@ -1,3 +1,17 @@
+<!--<?php
+  require 'connect.php';
+  if(isset($_POST["submit"])) {
+    $data = $_POST["data"];
+    $name = $_POST["name"];
+    $discript = $_POST["discript"];
+  
+    $query = "INSERT INTO tabname VALUES ('', '$data', '$name', '$discript')";
+    mysqli_query($con, $query);
+    echo "data inserted" ;
+   
+  } 
+?>-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,6 +26,13 @@
   
 
 </head>
+
+<style media="screen">
+  label{
+    display: block;
+  } 
+</style>
+  
 
 <body>
   <!--<body data-spy="scroll" data-target="site-navbar-target" data-offset="300">
@@ -48,47 +69,23 @@
     <h3> Plans every day. </h3><br>
     
     
-      <!--<form action="insert.html" method="post">
-        <p>
-          <label for="data">Дата:</label>
-          <input type="text" name="data" id="data">
-        </p>
-        <p>
-          <label for="name">Планы:</label>
-          <input type="text" name="name" id="name">
-        </p>
-        <p>
-          <label for="discript">Описание:</label>
-          <input type="text" name="discript" id="discript">
-        </p>
-        <input type="submit" value="Отправить">
-      </form>
-      
-      <?php
-      
-        $link = mysqli_connect("localhost", "root", "", "ftabname");
+      <!--<form class="" action="" method="post" autocomplete="off">
+        
+          <label for="">Дата:</label>
+          <input type="text" name="data" required value="">
+        
+          <label for="">Планы:</label>
+          <input type="text" name="name" required value="">
+        
+          <label for="">Описание:</label>
+          <input type="text" name="discript" required value="">
+          <br>
+          <button type="submit" name="submit">Accept</button>
+          
+      </form>-->
        
-        // Проверьте подключение
-        if($link === false){
-          die("ERROR: Нет подключения. " . mysqli_connect_error());
-        }
        
-        //  экранирует специальные символы в строке
-        $data = mysqli_real_escape_string($link, $_REQUEST['data']);
-        $name = mysqli_real_escape_string($link, $_REQUEST['name']);
-        $discript = mysqli_real_escape_string($link, $_REQUEST['discript']);
-       
-        // Попытка выполнения запроса вставки
-        $sql = "INSERT INTO tabname VALUES ( '', $data', '$name', '$discript')";
-        if(mysqli_query($link, $sql)){
-          echo "Записи успешно добавлены.";
-        } else{
-            echo "ERROR: Не удалось выполнить $sql. " . mysqli_error($link);
-          }
-       
-          // Закрыть соединение
-        mysqli_close($link);
-      ?>-->
+        
 <br><br>
 
     <table>
