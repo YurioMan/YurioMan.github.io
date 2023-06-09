@@ -5,13 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css">
+    <!--<style>
+     .container(overflow: hidden)
+     .tab(float: left;)
+     .tab-2(margin-left: 50px)
+      
+    </style>-->
 </head>
 
 <body>
   <h1>Contact</h1>
-  
-  <form action="" method="get" accept-charset="utf-8">
+  <div class="container">
+    
+    <div class="tab tab-2">
+      FistName :<input type="text" name="fname" id="fname">
+      LastName :<input type="text" name="lname" id="lname">
+      Age :<input type="text" name="age" id="age">
+      
+      <button onclick="addHtmlTableRow();">Add</button>
+      <button>Edit</button>
+      <button>Remove</button>
+    </div>
+    <div class="tab tab-1">
+      <table id="table" border="1">
+        <tr>
+          <th>first name</th>
+          <th>last name</th>
+          <th>age</th>
+        </tr>
+        
+      </table>
+    </div>
+  </div>
+  <script type="text/javascript" charset="utf-8">
+    function addHtmlTableRow()
+    {
+      var table = document. getElementById("table"), newRow = table.insertRow(table.length), cell1 = newRow.insertCell(0), cell2 = newRow.insertCell(1), cell3 = newRow.insertCell(2), fname = document.getElementById("fname").value, lname = document.getElementById("lname").value, age = document.getElementById("age").value;
+      
+      cell1.innerHTML = fname;
+      cell2.innerHTML = lname;
+      cell3.innerHTML = age;
+      
+    } 
+   
+  </script>
+  <!--<form action="" method="get" accept-charset="utf-8">
     <label for="name">Name</label>
     <input type="text" id="name">
     <label for="message">Message</label>
@@ -19,11 +58,11 @@
     <label for="priority">Priority</label>
     <select id="priority">
       <option>Low</option>
-      <option>Medium</option>
+      <option selected>Medium </option>
       <option>High</option>
     </select>
   
-  </form>
+  </form>-->
   
 
 </body>
